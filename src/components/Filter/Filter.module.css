@@ -1,0 +1,13 @@
+.filter__label {
+}
+.filter__input {
+  width: 54%;
+  margin-left: 4px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+
+  background-color: transparent;
+  color: #333333;
+  font-size: 15px;
+}

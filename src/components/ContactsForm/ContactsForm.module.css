@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form__input {
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 20px;
+
+  background-color: transparent;
+  color: #333333;
+  font-size: 15px;
+}
+
+.form__button {
+  margin-top: 20px;
+  background-color: transparent;
+  color: #333333;
+
+  font-size: 17px;
+  padding: 11px;
+  border-radius: 5px;
+}

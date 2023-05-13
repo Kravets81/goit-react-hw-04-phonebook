@@ -1,0 +1,26 @@
+.contact__list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact__item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.contact__span__name {
+}
+
+.contact__span__number {
+  margin-left: 20px;
+}
+
+.contact__button {
+  margin-left: auto;
+  background-color: transparent;
+  color: #333333;
+
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
