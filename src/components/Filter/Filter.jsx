@@ -5,21 +5,22 @@ import css from './Filter.module.css';
 export default function Filter({ value, handleChange, savedLocalContacts }) {
   return (
     <>
-      <label className={css.filter__label}>
-        Find contacts by name:
-        <input
-          className={css.filter__input}
-          type="text"
-          name="filter"
-          value={value}
-          onChange={handleChange}
-        />
-      </label>
-      {savedLocalContacts === 0 && (
+      {savedLocalContacts === 0 ? (
         <p>
           There are no contacts in your phonebook. Please add your first
           contact!
         </p>
+      ) : (
+        <label className={css.filter__label}>
+          Find contacts by name:
+          <input
+            className={css.filter__input}
+            type="text"
+            name="filter"
+            value={value}
+            onChange={handleChange}
+          />
+        </label>
       )}
     </>
   );
